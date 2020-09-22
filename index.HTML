@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <meta http-equiv= "X-UA-Compatible" content = "ie=edge">
+    <title>Weather App</title>
+    <!--Styling link -->
+    <link rel = "stylesheet" href = "main.css"/>
+    <!-- Bootstrap link to make the html page "responsive" -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+  </head>
+  <body>
+    <div class = "app-wrap">
+      <header>
+        <div class = "input-section">
+          <input type="text" autocomplete = "off" class = "search-box" placeholder=" Search for a city..."/>
+        </div>
+        
+      </header>
+        <main>
+          <img id = "vector-image" src= "cloudVector.png">
+        <section class = "location">
+          <div class = "city" > </div>
+          
+          <div class = "date"> </div>
+        </section>
+        <div class = "current">
+          <div class = "temp">  <span> </span></div>
+          <div class = "high-label">Today's High:</div>
+          <div class = "high"> Highest: 93°F</div>
+          <div class = "metric1">°F</div>
+          <div class = "low-label">Today's Low:</div>
+          <div class = "low ">Lowest: 75°F </div>
+          <div class = "metric2">°F</div>
+        </div>
+      </main>
+  </div>
+    <script src = "main.js"></script>
+  </body>
+</html>
